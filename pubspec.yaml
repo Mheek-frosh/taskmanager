@@ -1,0 +1,50 @@
+name: taskmanager
+description: "A new Flutter project by Michael Usidamen"
+
+# Prevents accidental publishing to pub.dev
+publish_to: 'none'
+
+# Application version
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.7.0 <4.0.0' # Ensure compatibility with Flutter SDK
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management & Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  provider: ^6.1.2
+  path_provider: ^2.0.15
+
+  # Notifications
+  flutter_local_notifications: ^16.1.0
+
+  # UI & Icons
+  cupertino_icons: ^1.0.8 # iOS-style icons
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0 # Recommended linting rules
+  build_runner: ^2.4.8
+  hive_generator: ^2.0.1
+
+flutter:
+  uses-material-design: true
+
+  # Uncomment to add assets (e.g., images/icons)
+  # assets:
+  #   - assets/images/
+
+  # Uncomment to add custom fonts
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
+  #       - asset: fonts/CustomFont-Bold.ttf
+  #         weight: 700
