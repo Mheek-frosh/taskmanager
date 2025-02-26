@@ -38,7 +38,7 @@ lib/
 
 1️⃣ Clone the Repository
 
-git clone https://github.com/your-username/taskmanager.git
+git clone https://github.com/mheek-frosh/taskmanager.git
 cd taskmanager
 
 2️⃣ Install Dependencies
